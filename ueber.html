@@ -1,0 +1,221 @@
+  <a href="#Hauptinhalt" class="skip-link" tabindex="0" aria-label="Springe direkt zum Hauptinhalt">Zum Hauptinhalt springen</a><!DOCTYPE html>
+<html lang="de"> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="generator" content="RocketCake">
+	<title>&#220;ber das Projekt</title>
+	<link rel="stylesheet" type="text/css" href="ueber_html.css?h=c3a1f937">
+</head>
+<body>
+<div class="textstyle1">
+<div id="container_27239954"role="banner"><div id="container_27239954_padding" ><div class="textstyle1"><span class="textstyle2"><br/></span><span class="textstyle3">Darstellungsoptionen:</span><span class="textstyle2"><br/></span><style>
+
+ .options-label {
+        color: white;
+        font-family: Arial, sans-serif;
+        margin-bottom: 5px; /* Kleineren Abstand zu den Buttons */
+    }
+
+ </style>
+
+<div class="text-resize-controls">
+
+    <button onclick="changeFontSize(1)" aria-label="Seitenzoom auf 100% setzen">100%</button>
+    <button onclick="changeFontSize(1.5)" aria-label="Seitenzoom auf 150% setzen">150%</button>
+    <button onclick="changeFontSize(2)" aria-label="Seitenzoom auf 200% setzen">200%</button>
+    <button onclick="toggleInvertColors()" aria-label="Farben der Webseite umkehren">Farben umkehren</button>
+</div>
+<script>
+    function applySettings() {
+        const savedFontSize = localStorage.getItem("fontSize");
+        if (savedFontSize) {
+            document.documentElement.style.transform = "scale(" + savedFontSize + ")";
+            document.documentElement.style.transformOrigin = "top left";
+        }
+        
+        const savedInverted = localStorage.getItem("invertedColors");
+        if (savedInverted === "true") {
+            document.documentElement.classList.add("inverted-colors");
+        }
+    }
+
+    function changeFontSize(scale) {
+        localStorage.setItem("fontSize", scale);
+        applySettings();
+    }
+    
+    function toggleInvertColors() {
+        const isInverted = document.documentElement.classList.toggle("inverted-colors");
+        localStorage.setItem("invertedColors", isInverted);
+    }
+    
+    document.addEventListener("DOMContentLoaded", applySettings);
+</script>
+
+<style>
+    .inverted-colors {
+        filter: invert(1) hue-rotate(180deg);
+        background-color: black;
+    }
+    .inverted-colors img {
+        filter: invert(1) hue-rotate(180deg);
+    }
+</style><span class="textstyle3"><br/>Bitte verwenden Sie zur Anpassung der Schriftgr&#246;&#223;e idealerweise die Zoom-Funktion des Browsers, damit sich die Seite automatisch anpasst. </span></div>
+<div style="clear:both"></div></div></div><div id="container_1f0f9a1a"role="banner" aria-label="Seitentitel"><div id="container_1f0f9a1a_padding" ><div class="textstyle1"><span class="textstyle4">InkluLurch</span><span class="textstyle4"><br/></span><span class="textstyle5">Inklusive digitale Bestimmungshilfe f&#252;r Amphibien in Baden-W&#252;rttemberg</span></div>
+</div></div><nav id="elem_27fb936f"  style="vertical-align: top; position:relative; display: inline-block; width:100%; height:37px; min-width:350px; background:none; " >  <div id="text_60f75242">
+    <div class="textstyle1">
+<div id="menu" role="menu"><div  class="menuholder1"><a href="javascript:void(0);" tabindex="-1">
+	<div id="menuentry_5bd6a16c"  class="menustyle1 menu_mainMenuEntry mobileEntry">
+		<div class="menuentry_text1">
+      <span class="textstyle6">&#8801;</span>
+		</div>
+	</div>
+</a>
+<a href="index.html" style="text-decoration:none" tabindex="-1">
+	<div id="menuentry_3d605f38"  class="menustyle2 menu_mainMenuEntry normalEntry">
+		<div class="menuentry_text2">
+      <span class="textstyle7">Startseite</span>
+		</div>
+	</div>
+</a>
+<a href="bestimmungshilfen.html" style="text-decoration:none" tabindex="-1">
+	<div id="menuentry_7a4c4888"  class="menustyle3 menu_mainMenuEntry normalEntry">
+		<div class="menuentry_text2">
+      <span class="textstyle7">Bestimmungshilfen</span>
+		</div>
+	</div>
+</a>
+<a href="amphibienrufe.html" style="text-decoration:none" tabindex="-1">
+	<div id="menuentry_71507bc1"  class="menustyle4 menu_mainMenuEntry normalEntry">
+		<div class="menuentry_text2">
+      <span class="textstyle7">Amphibienrufe</span>
+		</div>
+	</div>
+</a>
+<a href="amphibienportraets.html" style="text-decoration:none" tabindex="-1">
+	<div id="menuentry_2ca33937"  class="menustyle5 menu_mainMenuEntry normalEntry">
+		<div class="menuentry_text2">
+      <span class="textstyle7">Amphibienportr&#228;ts</span>
+		</div>
+	</div>
+</a>
+<a href="downloads.html" style="text-decoration:none" tabindex="-1">
+	<div id="menuentry_1f6410d5"  class="menustyle6 menu_mainMenuEntry normalEntry">
+		<div class="menuentry_text2">
+      <span class="textstyle7">Downloads</span>
+		</div>
+	</div>
+</a>
+<a href="ueber.html" style="text-decoration:none" tabindex="-1">
+	<div id="menuentry_77b4141d"  class="menustyle7 menu_mainMenuEntry normalEntry">
+		<div class="menuentry_text2">
+      <span class="textstyle7">&#220;ber das Projekt</span>
+		</div>
+	</div>
+</a>
+<a href="impressum.html" style="text-decoration:none" tabindex="-1">
+	<div id="menuentry_8f3bd7b"  class="menustyle8 menu_mainMenuEntry normalEntry">
+		<div class="menuentry_text2">
+      <span class="textstyle7">Impressum</span>
+		</div>
+	</div>
+</a>
+<a href="sitemap.html" style="text-decoration:none" tabindex="-1">
+	<div id="menuentry_5bdb9219"  class="menustyle9 menu_mainMenuEntry normalEntry">
+		<div class="menuentry_text2">
+      <span class="textstyle7">Sitemap</span>
+		</div>
+	</div>
+</a>
+
+	<script type="text/javascript" src="rc_images/wsp_menu.js"></script>
+	<script type="text/javascript">
+		var js_menu= new wsp_menu('menu', 'menu', 10, null, true, {generateAriaLabels: false, setUsefulTabIndices: false, closeWhenMouseOut: false} );
+
+		js_menu.createMenuForItem('menuentry_5bd6a16c', ["      <span class=\"textstyle7\">Startseite</span> ", 'index.html', '',
+		                                   "      <span class=\"textstyle7\">Bestimmungshilfen</span> ", 'bestimmungshilfen.html', '',
+		                                   "      <span class=\"textstyle7\">Amphibienrufe</span> ", 'amphibienrufe.html', '',
+		                                   "      <span class=\"textstyle7\">Amphibienportr&#228;ts</span> ", 'amphibienportraets.html', '',
+		                                   "      <span class=\"textstyle7\">Downloads</span> ", 'downloads.html', '',
+		                                   "      <span class=\"textstyle7\">&#220;ber das Projekt</span> ", 'ueber.html', '',
+		                                   "      <span class=\"textstyle7\">Impressum</span> ", 'impressum.html', '',
+		                                   "      <span class=\"textstyle7\">Sitemap</span> ", 'sitemap.html', '']
+		                                   , true);
+		js_menu.createMenuForItem('menuentry_3d605f38', []);
+		js_menu.createMenuForItem('menuentry_7a4c4888', []);
+		js_menu.createMenuForItem('menuentry_71507bc1', []);
+		js_menu.createMenuForItem('menuentry_2ca33937', []);
+		js_menu.createMenuForItem('menuentry_1f6410d5', []);
+		js_menu.createMenuForItem('menuentry_77b4141d', []);
+		js_menu.createMenuForItem('menuentry_8f3bd7b', []);
+		js_menu.createMenuForItem('menuentry_5bdb9219', []);
+
+	</script>
+</div></div>      </div>
+    </div>
+</nav><div id="Hauptinhalt" role="region" aria-label="Seiteninhalt"
+><div id="Hauptinhalt_padding" ><div class="textstyle1"><div  id="placeh_17435cc4" >
+  <div class="textstyle1">
+<head> 
+   <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+             .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <button id="toggle-button">Text in Einfacher Sprache anzeigen</button>
+</body><div id="container-standardsprache"><div id="container-standardsprache_padding" ><div class="textstyle1"><h1 id="heading_11849690">&#220;ber das Projekt</h1>    <span class="textstyle8"><br/>Die Website &quot;InkluLurch&quot; entsteht im Rahmen einer Masterarbeit im Studiengang Biodiversit&#228;t und Umweltbildung an der P&#228;dagogischen Hochschule Karlsruhe unter Mitarbeit des Zentrums f&#252;r digitale Barrierefreiheit und AT (ACCESS@KIT) am Karlsruhe Institute of Technology.<br/><br/></span>
+<h2 id="heading_588d69e0">Welche Rolle spielen Bestimmungshilfen bei der Vermittlung von Artenkenntnis?</h2>    <span class="textstyle8"><br/>Dass diese Artenkenntnis in der Gesellschaft nur schwach vertreten ist, zeigen zahlreiche Studien sowohl f&#252;r Kinder und Jugendliche (Sturm et al., 2020) als auch f&#252;r Erwachsene (Enzensberger et al., 2022). Selbst naturaffine Menschen erreichen h&#228;ufig nur eine wenig umfangreiche Artenkenntnis, wie beispielsweise die Ergebnisse der arten|pisa-Umfrage von 2017 (Schulemann-Maier &amp; Munzinger, 2018)<br/>zeigen: Von fast 8000 Befragten aus dem Umfeld des Naturschutzbund Deutschland e. V. (NABU) erreichte ein Gro&#223;teil nicht einmal die H&#228;lfte der erreichbaren Punkte bei der Benennung von 36 verschiedenen Tier- und Pflanzenarten. Besonders f&#252;r den Naturschutz ist es jedoch essenziell, dass nicht nur Experten in der Lage sind, Arten erfolgreich zu erkennen, sondern auch die breite Masse der Bev&#246;lkerung, denn Menschen finden die Tiere und Pflanzen sch&#252;tzenswert, die sie kennen (Lindemann-Matthies, 2005). <br/>Doch wie kann Artenkenntnis erfolgreich und nachhaltig vermittelt werden? Randler und Bogner, 2006 zeigten in einer Studie, dass in der Vermittlung von Artenkenntnis interaktive Ans&#228;tze, die die selbstst&#228;ndige Nutzung von Bestimmungsb&#252;chern einbanden, einen signifikant h&#246;heren Erfolg erzielten als die klassische Methode des Lehrervortrags. Dies spricht daf&#252;r, dass sinnvoll gestaltete Bestimmungshilfen einen gro&#223;en Einfluss auf den Erwerb von Artenkenntnis haben k&#246;nnten.<br/><br/></span>
+<h2 id="heading_39507b41">Warum sollten Bestimmungshilfen inklusiver werden?</h2>    <span class="textstyle8"><br/>Je mehr Menschen Zugang zu bestimmten Materialien (wie zum Beispiel Bestimmungshilfen) bekommen, desto zug&#228;nglicher wird auch das Thema (hier: Amphibien) f&#252;r die breite Bev&#246;lkerung. Inklusive Materialien helfen dabei nicht nur Menschen mit Behinderung: Einfache Sprache macht zum Beispiel Materialien zug&#228;nglicher f&#252;r Menschen, die nicht gut (in deutscher Sprache) lesen k&#246;nnen. Dazu k&#246;nnen sowohl Kinder im Grundschulalter als auch Menschen mit Migrationshintergrund oder Menschen mit Lernschwierigkeiten geh&#246;ren. Visuelle Anpassungen wie die M&#246;glichkeit, Text und Bilder zu vergr&#246;&#223;ern oder den Kontrast zu ver&#228;ndern, hilft sowohl Menschen mit angeborenen Sehbehinderungen als auch &#228;lteren Menschen. Insbesondere von multisensorischen Zug&#228;ngen profitieren alle Menschen, wenn es um Lernprozesse geht: Nicht nur die visuellen Merkmale, sondern auch die Rufe der Amphibien zu kennen, kann also dabei helfen, sich die Amphibien besser zu merken.<br/><br/></span>
+<h2 id="heading_2b867b6f">F&#252;r wen ist die Webseite geeignet?</h2>    <span class="textstyle8"><br/>Die Website ist f&#252;r alle Menschen geeignet, die sich f&#252;r heimische Amphibien interessieren und mehr &#252;ber sie lernen wollen. Sie kann als Einstieg in das Thema oder zum Bestimmen gefundener Amphibien im Feld genutzt werden. Insbesondere bietet die Website einen Bestimmungsweg f&#252;r Menschen mit Farbfehlsichtigkeit (zum Beispiel Rot-Gr&#252;n-Blindheit) und f&#252;r blinde und hochgradig sehbehinderte Menschen.<br/><br/></span>
+<h2 id="heading_7406974b">An welchen Standards zur Barrierefreiheit orientiert sich die Webseite?</h2>    <span class="textstyle8"><br/>Die Webseite orientiert sich an den</span>
+    <span class="textstyle8"><a href="https://www.w3.org/TR/WCAG22/"> </a></span>
+<span class="textstyle8"><a href="https://" arial-label="Link zu den WCAG-Kriterien">Web Content Accessibility Guideluines (WCAG) 2.2</a></span><span class="textstyle8">. Diese Richtlinien f&#252;r barrierefreie Webentwicklung sind beispielsweise auch im Rahmen der BITV 2.0 und der Harmonisierten Europ&#228;ische Norm (EN) 301 549 f&#252;r Webangebote des &#246;ffentlichen Sektors verpflichtend. Die WCAG setzen einen mehrstufigen Standard f&#252;r die barrierefreie Umsetzung von Webcontent und definieren dabei vier grundlegende Prinzipien f&#252;r die Gestaltung: </span>    <span class="textstyle9">Perceivable</span>
+    <span class="textstyle8"> (wahrnehmbar), </span>
+    <span class="textstyle9">Operable</span>
+    <span class="textstyle8"> (bedienbar), </span>
+    <span class="textstyle9">Understandable</span>
+    <span class="textstyle8"> (verst&#228;ndlich) und </span>
+    <span class="textstyle9">Robust</span>
+    <span class="textstyle8"> (robust). Eine Website kann nach den WCAG eins von drei m&#246;glichen Leveln an Barrierefreiheit erreichen: A, AA oder AAA. Dabei hat A die niedrigsten und AAA die h&#246;chsten Anforderungen an die Barrierefreiheit.<br/><br/></span>
+<h2 id="heading_6469f983">Wie wird das Projekt evaluiert?</h2>    <span class="textstyle8"><br/>Die Bestimmungshilfe nach dem ADDIE-Prinzip entwickelt. ADDIE steht dabei f&#252;r die 5 Schritte der wissenschaftsgeleiteten Entwicklung von Lernmaterialien: Analyse, Design, Development (Entwicklung), Implement (Umsetzung) und Evaluation. Um den letzten Punkt zu erf&#252;llen, wird die Website mit verschiedenen Nutzergruppen evaluiert. Dabei liegt der Fokus zum Einen auf der erfolgreichen Artbestimmung und zum Anderen auf der Usability der Website. </span>
+</div>
+<div style="clear:both"></div></div></div><div id="container-einfache-sprache" class="hidden"><div id="container-einfache-sprache_padding" ><div class="textstyle1"><h1 id="heading_27e5a43a">&#220;ber das Projekt</h1>    <span class="textstyle8"><br/>Josephine R&#246;hner schreibt die Webseite &quot;InkluLurch&quot; f&#252;r ihre Abschluss-Arbeit.<br/>Die Abschluss-Arbeit schreibt Josephine R&#246;hner an der P&#228;dagogischen Hochschule Karlsruhe.<br/>Ihr hilft das Zentrum f&#252;r digitale Barriere-Freiheit und Assistive Technologie (ACCESS@KIT) am Karlsruher Institut f&#252;r Technologie.<br/><br/></span>
+<h2 id="heading_10dd67e5">Was hei&#223;t &quot;InkluLurch&quot;?</h2>    <span class="textstyle8"><br/>Das Wort &quot;InkluLurch&quot; setzt sich zusammen aus den W&#246;rtern &quot;Inklusion&quot; und &quot;Lurch&quot;. Inklusion hei&#223;t: Alle Menschen k&#246;nnen mitmachen. Lurch ist ein anderes Wort f&#252;r Amphibien.<br/>Auf der Webseite k&#246;nnen alle Menschen etwas &#252;ber Amphibien lernen. <br/><br/></span>
+<h2 id="heading_491fb2f8">Deshalb ist es wichtig, dass du Amphibien kennst:</h2>    <span class="textstyle8"><br/>Viele Menschen kennen sich in der Natur schlecht aus.<br/>Forscher haben herausgefunden: Wenn man sich gut in der Natur auskennt, m&#246;chte man die Natur besch&#252;tzen.<br/>Amphibien m&#252;ssen gesch&#252;tzt werden. Deshalb ist es wichtig, dass viele Menschen Amphibien kennen und Amphibien sch&#252;tzen wollen.<br/><br/></span>
+<h2 id="heading_4918b54b">Diese Menschen k&#246;nnen die Webseite benutzen:</h2>    <span class="textstyle8"><br/>Du kannst diese Webseite benutzen, wenn du etwas &#252;ber Amphibien lernen m&#246;chtest.<br/>Auch Menschen mit einer Seh-Behinderung oder Menschen mit Lern-Schwierigkeiten k&#246;nnen diese Seite benutzen.<br/><br/></span>
+<h2 id="heading_49ef359e">Die Webseite ist barriere-frei:</h2>    <span class="textstyle8"><br/>Die Webseite benutzt die </span>
+<span class="textstyle8"><a href="https://www.w3.org/TR/WCAG22/" arial-label="Link zu den WCAG-Kriterien">Web Content Accessibility Guideluines (WCAG) 2.2</a></span><span class="textstyle8">.<br/>Das bedeutet: Menschen mit Behinderungen k&#246;nnen diese Webseite gut benutzen.</span></div>
+<div style="clear:both"></div></div></div>
+    <script>
+        (function () {
+            var button = document.getElementById("toggle-button");
+            var standardContainer = document.getElementById("container-standardsprache");
+            var einfacheSpracheContainer = document.getElementById("container-einfache-sprache");
+
+            button.addEventListener("click", function () {
+                if (standardContainer.className.indexOf("hidden") !== -1) {
+                    standardContainer.className = standardContainer.className.replace("hidden", "").trim();
+                    einfacheSpracheContainer.className += " hidden";
+                    button.innerHTML = "Text in Einfacher Sprache anzeigen";
+                } else {
+                    standardContainer.className += " hidden";
+                    einfacheSpracheContainer.className = einfacheSpracheContainer.className.replace("hidden", "").trim();
+                    button.innerHTML = "Text in Standardsprache anzeigen";
+                }
+            });
+        })();
+    </script>
+    </div>
+</div>
+</div>
+<div style="clear:both"></div></div></div><div id="container_b131709"role="contentinfo" aria-label="Copyright Information"><div id="container_b131709_padding" ><div class="textstyle1">  <span class="textstyle10">Copyright (c) by Josephine R&#246;hner</span>
+</div>
+</div></div>  </div>
+</body>
+</html>

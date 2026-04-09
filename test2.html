@@ -1,0 +1,527 @@
+  <a href="#Hauptinhalt" class="skip-link" tabindex="0" aria-label="Springe direkt zum Hauptinhalt">Zum Hauptinhalt springen</a><!DOCTYPE html>
+<html> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="generator" content="RocketCake">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="test2_html.css?h=70cca555">
+</head>
+<body>
+<div class="textstyle1">
+<div id="container_27239954"role="banner"><div id="container_27239954_padding" ><div class="textstyle1"><span class="textstyle2"><br/></span><span class="textstyle3">Darstellungsoptionen:</span><span class="textstyle2"><br/></span><style>
+
+ .options-label {
+        color: white;
+        font-family: Arial, sans-serif;
+        margin-bottom: 5px; /* Kleineren Abstand zu den Buttons */
+    }
+
+ </style>
+
+<div class="text-resize-controls">
+
+    <button onclick="changeFontSize(1)" aria-label="Seitenzoom auf 100% setzen">100%</button>
+    <button onclick="changeFontSize(1.5)" aria-label="Seitenzoom auf 150% setzen">150%</button>
+    <button onclick="changeFontSize(2)" aria-label="Seitenzoom auf 200% setzen">200%</button>
+    <button onclick="toggleInvertColors()" aria-label="Farben der Webseite umkehren">Farben umkehren</button>
+</div>
+<script>
+    function applySettings() {
+        const savedFontSize = localStorage.getItem("fontSize");
+        if (savedFontSize) {
+            document.documentElement.style.transform = "scale(" + savedFontSize + ")";
+            document.documentElement.style.transformOrigin = "top left";
+        }
+        
+        const savedInverted = localStorage.getItem("invertedColors");
+        if (savedInverted === "true") {
+            document.documentElement.classList.add("inverted-colors");
+        }
+    }
+
+    function changeFontSize(scale) {
+        localStorage.setItem("fontSize", scale);
+        applySettings();
+    }
+    
+    function toggleInvertColors() {
+        const isInverted = document.documentElement.classList.toggle("inverted-colors");
+        localStorage.setItem("invertedColors", isInverted);
+    }
+    
+    document.addEventListener("DOMContentLoaded", applySettings);
+</script>
+
+<style>
+    .inverted-colors {
+        filter: invert(1) hue-rotate(180deg);
+        background-color: black;
+    }
+    .inverted-colors img {
+        filter: invert(1) hue-rotate(180deg);
+    }
+</style><span class="textstyle3"><br/>Bitte verwenden Sie zur Anpassung der Schriftgr&#246;&#223;e idealerweise die Zoom-Funktion des Browsers, damit sich die Seite automatisch anpasst. </span></div>
+<div style="clear:both"></div></div></div><div id="container_1f0f9a1a"role="banner" aria-label="Seitentitel"><div id="container_1f0f9a1a_padding" ><div class="textstyle1"><span class="textstyle4">InkluLurch</span><span class="textstyle4"><br/></span><span class="textstyle5">Inklusive digitale Bestimmungshilfe f&#252;r Amphibien in Baden-W&#252;rttemberg</span></div>
+</div></div><nav id="elem_27fb936f"  style="vertical-align: top; position:relative; display: inline-block; width:100%; height:37px; min-width:350px; background:none; " >  <div id="text_60f75242">
+    <div class="textstyle1">
+<div id="menu" role="menu"><div  class="menuholder1"><a href="javascript:void(0);" tabindex="-1">
+	<div id="menuentry_5bd6a16c"  class="menustyle1 menu_mainMenuEntry mobileEntry">
+		<div class="menuentry_text1">
+      <span class="textstyle6">&#8801;</span>
+		</div>
+	</div>
+</a>
+<a href="index.html" style="text-decoration:none" tabindex="-1">
+	<div id="menuentry_3d605f38"  class="menustyle2 menu_mainMenuEntry normalEntry">
+		<div class="menuentry_text2">
+      <span class="textstyle7">Startseite</span>
+		</div>
+	</div>
+</a>
+<a href="bestimmungshilfen.html" style="text-decoration:none" tabindex="-1">
+	<div id="menuentry_7a4c4888"  class="menustyle3 menu_mainMenuEntry normalEntry">
+		<div class="menuentry_text2">
+      <span class="textstyle7">Bestimmungshilfen</span>
+		</div>
+	</div>
+</a>
+<a href="amphibienrufe.html" style="text-decoration:none" tabindex="-1">
+	<div id="menuentry_71507bc1"  class="menustyle4 menu_mainMenuEntry normalEntry">
+		<div class="menuentry_text2">
+      <span class="textstyle7">Amphibienrufe</span>
+		</div>
+	</div>
+</a>
+<a href="amphibienportraets.html" style="text-decoration:none" tabindex="-1">
+	<div id="menuentry_2ca33937"  class="menustyle5 menu_mainMenuEntry normalEntry">
+		<div class="menuentry_text2">
+      <span class="textstyle7">Amphibienportr&#228;ts</span>
+		</div>
+	</div>
+</a>
+<a href="downloads.html" style="text-decoration:none" tabindex="-1">
+	<div id="menuentry_1f6410d5"  class="menustyle6 menu_mainMenuEntry normalEntry">
+		<div class="menuentry_text2">
+      <span class="textstyle7">Downloads</span>
+		</div>
+	</div>
+</a>
+<a href="ueber.html" style="text-decoration:none" tabindex="-1">
+	<div id="menuentry_77b4141d"  class="menustyle7 menu_mainMenuEntry normalEntry">
+		<div class="menuentry_text2">
+      <span class="textstyle7">&#220;ber das Projekt</span>
+		</div>
+	</div>
+</a>
+<a href="impressum.html" style="text-decoration:none" tabindex="-1">
+	<div id="menuentry_8f3bd7b"  class="menustyle8 menu_mainMenuEntry normalEntry">
+		<div class="menuentry_text2">
+      <span class="textstyle7">Impressum</span>
+		</div>
+	</div>
+</a>
+<a href="sitemap.html" style="text-decoration:none" tabindex="-1">
+	<div id="menuentry_5bdb9219"  class="menustyle9 menu_mainMenuEntry normalEntry">
+		<div class="menuentry_text2">
+      <span class="textstyle7">Sitemap</span>
+		</div>
+	</div>
+</a>
+
+	<script type="text/javascript" src="rc_images/wsp_menu.js"></script>
+	<script type="text/javascript">
+		var js_menu= new wsp_menu('menu', 'menu', 10, null, true, {generateAriaLabels: false, setUsefulTabIndices: false, closeWhenMouseOut: false} );
+
+		js_menu.createMenuForItem('menuentry_5bd6a16c', ["      <span class=\"textstyle7\">Startseite</span> ", 'index.html', '',
+		                                   "      <span class=\"textstyle7\">Bestimmungshilfen</span> ", 'bestimmungshilfen.html', '',
+		                                   "      <span class=\"textstyle7\">Amphibienrufe</span> ", 'amphibienrufe.html', '',
+		                                   "      <span class=\"textstyle7\">Amphibienportr&#228;ts</span> ", 'amphibienportraets.html', '',
+		                                   "      <span class=\"textstyle7\">Downloads</span> ", 'downloads.html', '',
+		                                   "      <span class=\"textstyle7\">&#220;ber das Projekt</span> ", 'ueber.html', '',
+		                                   "      <span class=\"textstyle7\">Impressum</span> ", 'impressum.html', '',
+		                                   "      <span class=\"textstyle7\">Sitemap</span> ", 'sitemap.html', '']
+		                                   , true);
+		js_menu.createMenuForItem('menuentry_3d605f38', []);
+		js_menu.createMenuForItem('menuentry_7a4c4888', []);
+		js_menu.createMenuForItem('menuentry_71507bc1', []);
+		js_menu.createMenuForItem('menuentry_2ca33937', []);
+		js_menu.createMenuForItem('menuentry_1f6410d5', []);
+		js_menu.createMenuForItem('menuentry_77b4141d', []);
+		js_menu.createMenuForItem('menuentry_8f3bd7b', []);
+		js_menu.createMenuForItem('menuentry_5bdb9219', []);
+
+	</script>
+</div></div>      </div>
+    </div>
+</nav><div id="Hauptinhalt" role="region" aria-label="Seiteninhalt"
+><div id="Hauptinhalt_padding" ><div class="textstyle1"><div  id="placeh_17435cc4" >
+  <div class="textstyle1">
+<!-- HTML für die Schriftgrößensteuerung -->
+<div id="fontSizeControls" class="font-size-controls" role="toolbar" aria-label="Schriftgröße anpassen">
+  <span class="control-label">Schriftgröße: </span>
+  <button id="font-decrease" aria-label="Schriftgröße verkleinern">A-</button>
+  <button id="font-default" aria-label="Standardschriftgröße">A</button>
+  <button id="font-increase" aria-label="Schriftgröße vergrößern">A+</button>
+</div>
+
+<!-- CSS für die Steuerung -->
+<style>
+  .font-size-controls {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #f0f0f0;
+    padding: 8px;
+    border-radius: 5px;
+    z-index: 9999;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    font-family: Arial, sans-serif;
+  }
+  
+  .font-size-controls .control-label {
+    font-size: 14px;
+    margin-right: 5px;
+  }
+  
+  .font-size-controls button {
+    margin: 0 3px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .font-size-controls button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #0056b3;
+  }
+  
+  /* Für bessere Sichtbarkeit bei erhöhter Schriftgröße */
+  @media screen and (max-width: 768px) {
+    .font-size-controls {
+      top: auto;
+      bottom: 10px;
+      left: 10px;
+      right: auto;
+    }
+  }
+</style>
+
+<!-- JavaScript für die RocketCake-spezifische Schriftgrößenanpassung -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Baseline-Größe (Standard)
+    const defaultScale = 1.0;
+    // Schrittgröße für die Skalierung
+    const scaleStep = 0.15;
+    // Maximale und minimale Skalierung
+    const maxScale = 1.6;
+    const minScale = 0.85;
+    
+    // Aktueller Skalierungsfaktor (aus dem lokalen Speicher oder Standard)
+    let currentScale = parseFloat(localStorage.getItem('rocketCakeScale')) || defaultScale;
+    
+    // Buttons referenzieren
+    const decreaseBtn = document.getElementById('font-decrease');
+    const defaultBtn = document.getElementById('font-default');
+    const increaseBtn = document.getElementById('font-increase');
+    
+    // RocketCake-spezifische Selektoren für Textelemente
+    const rocketCakeTextSelectors = [
+      '.textstyle1', '.textstyle2', '.textstyle3', '.textstyle4', '.textstyle5',
+      '.menuentry_text1', '.menuentry_text2', 
+      'p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'span', 'a', 'li', 'td', 'th'
+    ];
+    
+    // Finde alle RocketCake Text-Elemente
+    function getAllTextElements() {
+      let elements = [];
+      rocketCakeTextSelectors.forEach(selector => {
+        const found = document.querySelectorAll(selector);
+        if (found.length > 0) {
+          elements = [...elements, ...found];
+        }
+      });
+      return elements;
+    }
+    
+    // Ursprüngliche Stile erfassen und speichern
+    function captureOriginalStyles() {
+      const textElements = getAllTextElements();
+      
+      textElements.forEach(element => {
+        // Wir speichern die ursprünglichen Stile nur beim ersten Laden
+        if (!element.hasAttribute('data-original-font-size')) {
+          const style = window.getComputedStyle(element);
+          
+          // Speichern der ursprünglichen Schriftgröße
+          const fontSize = style.fontSize;
+          if (fontSize && fontSize !== '') {
+            element.setAttribute('data-original-font-size', fontSize);
+          }
+          
+          // Speichern von line-height wenn vorhanden
+          const lineHeight = style.lineHeight;
+          if (lineHeight && lineHeight !== 'normal' && lineHeight !== '') {
+            element.setAttribute('data-original-line-height', lineHeight);
+          }
+        }
+      });
+      
+      // Speziell für Buttons und Menüs, die verschachtelte Strukturen haben
+      document.querySelectorAll('[id^="button_"], [id^="menuentry_"]').forEach(container => {
+        container.setAttribute('data-is-interactive', 'true');
+        
+        // Größe des interaktiven Elements speichern
+        const style = window.getComputedStyle(container);
+        if (style.width) container.setAttribute('data-original-width', style.width);
+        if (style.height) container.setAttribute('data-original-height', style.height);
+      });
+    }
+    
+    // Die Schriftgröße für alle Text-Elemente anpassen
+    function updateFontSizes(scale) {
+      const textElements = getAllTextElements();
+      
+      textElements.forEach(element => {
+        // Schriftgröße anpassen, wenn Original gespeichert wurde
+        if (element.hasAttribute('data-original-font-size')) {
+          const originalSize = element.getAttribute('data-original-font-size');
+          // Extrahiere den numerischen Wert und die Einheit
+          const match = originalSize.match(/([\d.]+)(\D+)/);
+          
+          if (match) {
+            const value = parseFloat(match[1]);
+            const unit = match[2]; // px, em, etc.
+            
+            // Neue Größe berechnen und anwenden
+            const newSize = (value * scale) + unit;
+            element.style.fontSize = newSize;
+          }
+        }
+        
+        // Zeilenhöhe anpassen, wenn Original gespeichert wurde
+        if (element.hasAttribute('data-original-line-height')) {
+          const originalLineHeight = element.getAttribute('data-original-line-height');
+          const match = originalLineHeight.match(/([\d.]+)(\D+)/);
+          
+          if (match) {
+            const value = parseFloat(match[1]);
+            const unit = match[2];
+            const newLineHeight = (value * Math.min(scale, 1.3)) + unit; // Begrenzte Anpassung der Zeilenhöhe
+            element.style.lineHeight = newLineHeight;
+          }
+        }
+      });
+      
+      // Größe von Buttons und Menüelementen anpassen
+      document.querySelectorAll('[data-is-interactive="true"]').forEach(container => {
+        // Nur anpassen wenn nötig (ab einer bestimmten Vergrößerung)
+        if (scale > 1.2) {
+          // Größe proportional erhöhen für bessere Bedienbarkeit
+          if (container.hasAttribute('data-original-width')) {
+            const origWidth = container.getAttribute('data-original-width');
+            const match = origWidth.match(/([\d.]+)(\D+)/);
+            if (match) {
+              const value = parseFloat(match[1]);
+              const unit = match[2];
+              // Sanfte Anpassung der Breite für bessere Lesbarkeit
+              const adjustmentFactor = (scale - 1) * 0.5 + 1; // Sanftere Anpassung
+              const newWidth = (value * adjustmentFactor) + unit;
+              container.style.minWidth = newWidth;
+            }
+          }
+        }
+      });
+      
+      // RocketCake Menübreite anpassen
+      const menu = document.getElementById('menu');
+      if (menu) {
+        if (scale > 1.1) {
+          // Bei größerer Schrift das Menü breiter machen
+          menu.style.minWidth = (100 * scale) + '%';
+        } else {
+          menu.style.minWidth = '';
+        }
+      }
+      
+      // Anti-Scrolling für die gesamte Seite
+      adjustPageForFontSize(scale);
+    }
+    
+    // Seite für größere Schriftgrößen anpassen, um horizontales Scrollen zu vermeiden
+    function adjustPageForFontSize(scale) {
+      // Alle Elemente mit fester Breite anpassen
+      const fixedWidthElements = document.querySelectorAll('div[style*="width"]');
+      const viewportWidth = window.innerWidth;
+      
+      fixedWidthElements.forEach(element => {
+        const style = window.getComputedStyle(element);
+        const widthValue = parseInt(style.width);
+        
+        // Wenn das Element zu breit wird
+        if (widthValue * scale > viewportWidth * 0.95) {
+          element.style.maxWidth = '95vw';
+          element.style.width = '95%';
+          element.style.overflowX = 'auto';
+        }
+      });
+      
+      // Spezielle Anpassung für RocketCake Hauptcontainer
+      document.querySelectorAll('.vcenterstyle1, .vcenterstyle2').forEach(vcenter => {
+        if (scale > 1.2) {
+          vcenter.style.maxWidth = '100%';
+          vcenter.style.width = '100%';
+        }
+      });
+    }
+    
+    // Beim Laden der Seite die ursprünglichen Stile erfassen
+    captureOriginalStyles();
+    
+    // Wende die gespeicherte Skalierung an, wenn vorhanden
+    if (localStorage.getItem('rocketCakeScale')) {
+      updateFontSizes(currentScale);
+      updateActiveButton();
+    }
+    
+    // Event-Listener für die Buttons
+    decreaseBtn.addEventListener('click', function() {
+      if (currentScale > minScale) {
+        currentScale -= scaleStep;
+        currentScale = Math.max(minScale, Math.round(currentScale * 100) / 100); // Auf 2 Dezimalstellen runden
+        updateFontSizes(currentScale);
+        localStorage.setItem('rocketCakeScale', currentScale);
+        updateActiveButton();
+      }
+    });
+    
+    defaultBtn.addEventListener('click', function() {
+      currentScale = defaultScale;
+      updateFontSizes(currentScale);
+      localStorage.setItem('rocketCakeScale', currentScale);
+      updateActiveButton();
+    });
+    
+    increaseBtn.addEventListener('click', function() {
+      if (currentScale < maxScale) {
+        currentScale += scaleStep;
+        currentScale = Math.min(maxScale, Math.round(currentScale * 100) / 100); // Auf 2 Dezimalstellen runden
+        updateFontSizes(currentScale);
+        localStorage.setItem('rocketCakeScale', currentScale);
+        updateActiveButton();
+      }
+    });
+    
+    // Funktion zum Aktualisieren des aktiven Button-Status
+    function updateActiveButton() {
+      [decreaseBtn, defaultBtn, increaseBtn].forEach(btn => btn.classList.remove('active'));
+      
+      if (currentScale < defaultScale) {
+        decreaseBtn.classList.add('active');
+      } else if (Math.abs(currentScale - defaultScale) < 0.05) {
+        defaultBtn.classList.add('active');
+      } else {
+        increaseBtn.classList.add('active');
+      }
+    }
+    
+    // Bei Fenstergröße-Änderungen Layout anpassen
+    window.addEventListener('resize', function() {
+      adjustPageForFontSize(currentScale);
+    });
+    
+    // Tastaturunterstützung hinzufügen
+    document.addEventListener('keydown', function(e) {
+      // Alt + Plus = Schrift vergrößern
+      if (e.altKey && e.key === '+') {
+        if (currentScale < maxScale) {
+          currentScale += scaleStep;
+          currentScale = Math.min(maxScale, Math.round(currentScale * 100) / 100);
+          updateFontSizes(currentScale);
+          localStorage.setItem('rocketCakeScale', currentScale);
+          updateActiveButton();
+        }
+        e.preventDefault();
+      }
+      // Alt + Minus = Schrift verkleinern
+      else if (e.altKey && e.key === '-') {
+        if (currentScale > minScale) {
+          currentScale -= scaleStep;
+          currentScale = Math.max(minScale, Math.round(currentScale * 100) / 100);
+          updateFontSizes(currentScale);
+          localStorage.setItem('rocketCakeScale', currentScale);
+          updateActiveButton();
+        }
+        e.preventDefault();
+      }
+      // Alt + 0 = Standardgröße
+      else if (e.altKey && e.key === '0') {
+        currentScale = defaultScale;
+        updateFontSizes(currentScale);
+        localStorage.setItem('rocketCakeScale', currentScale);
+        updateActiveButton();
+        e.preventDefault();
+      }
+    });
+  });
+</script><head> 
+   <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+             .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <button id="toggle-button">Text in Einfacher Sprache</button>
+</body><div id="container-standardsprache"><div id="container-standardsprache_padding" ><div class="textstyle1"><h2 id="heading_7f8870ef">&#220;berschrift 1</h2>    <span class="textstyle2"><br/><br/>hier steht ein langer Text, der bei Schriftgr&#246;&#223;envergr&#246;&#223;erung angepasst werden m&#252;sste, dabei m&#252;ssen flexible Zeilenumbr&#252;che erfolgen und sich die Container entsprechend anpassen<br/><br/></span>
+    <div id="button_1aa0a592">
+      <div class="vcenterstyle1"><div class="vcenterstyle2">        <div class="textstyle8">
+          <span class="textstyle2">Button</span>
+          </div>
+        </div></div>
+      </div>
+    <div id="button_5b9f01e">
+      <div class="vcenterstyle1"><div class="vcenterstyle2">        <div class="textstyle8">
+          <span class="textstyle2">das ist ein Button mit sehr viel Text</span>
+          </div>
+        </div></div>
+      </div>
+</div>
+<div style="clear:both"></div></div></div><div id="container-einfache-sprache" class="hidden"><div id="container-einfache-sprache_padding" ><div class="textstyle1"><h2 id="heading_7f2cc2bd">&#220;berschrift 2</h2>    <span class="textstyle2"><br/>222</span>
+</div>
+<div style="clear:both"></div></div></div><img src="rc_images/schl_fenfleck_farbig.png" width="822" height="618" id="img_56fb2974" alt="" title="" /><span class="textstyle2"><br/></span>
+    <script>
+        (function () {
+            var button = document.getElementById("toggle-button");
+            var standardContainer = document.getElementById("container-standardsprache");
+            var einfacheSpracheContainer = document.getElementById("container-einfache-sprache");
+
+            button.addEventListener("click", function () {
+                if (standardContainer.className.indexOf("hidden") !== -1) {
+                    standardContainer.className = standardContainer.className.replace("hidden", "").trim();
+                    einfacheSpracheContainer.className += " hidden";
+                    button.innerHTML = "Text in Einfacher Sprache";
+                } else {
+                    standardContainer.className += " hidden";
+                    einfacheSpracheContainer.className = einfacheSpracheContainer.className.replace("hidden", "").trim();
+                    button.innerHTML = "Text in Standardsprache";
+                }
+            });
+        })();
+    </script>
+    </div>
+</div>
+</div>
+<div style="clear:both"></div></div></div><div id="container_b131709"role="contentinfo" aria-label="Copyright Information"><div id="container_b131709_padding" ><div class="textstyle1">  <span class="textstyle9">Copyright (c) by Josephine R&#246;hner</span>
+</div>
+</div></div>  </div>
+</body>
+</html>
