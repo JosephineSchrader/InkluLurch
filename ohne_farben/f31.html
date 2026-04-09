@@ -1,0 +1,182 @@
+  <a href="#Hauptinhalt" class="skip-link" tabindex="0" aria-label="Springe direkt zum Hauptinhalt">Zum Hauptinhalt springen</a><!DOCTYPE html>
+<html lang="de"> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="generator" content="RocketCake">
+	<title>Bestimmungschritt 3.1 ohne Farben</title>
+	<link rel="stylesheet" type="text/css" href="../ohne_farben/f31_html.css?h=b7e29c3d">
+</head>
+<body>
+<div class="textstyle1">
+<div id="container_27239954"role="banner"><div id="container_27239954_padding" ><div class="textstyle1"><span class="textstyle2"><br/></span><span class="textstyle3">Darstellungsoptionen:</span><span class="textstyle2"><br/></span><style>
+
+ .options-label {
+        color: white;
+        font-family: Arial, sans-serif;
+        margin-bottom: 5px; /* Kleineren Abstand zu den Buttons */
+    }
+
+ </style>
+
+<div class="text-resize-controls">
+
+    <button onclick="changeFontSize(1)" aria-label="Seitenzoom auf 100% setzen">100%</button>
+    <button onclick="changeFontSize(1.5)" aria-label="Seitenzoom auf 150% setzen">150%</button>
+    <button onclick="changeFontSize(2)" aria-label="Seitenzoom auf 200% setzen">200%</button>
+    <button onclick="toggleInvertColors()" aria-label="Farben der Webseite umkehren">Farben umkehren</button>
+</div>
+<script>
+    function applySettings() {
+        const savedFontSize = localStorage.getItem("fontSize");
+        if (savedFontSize) {
+            document.documentElement.style.transform = "scale(" + savedFontSize + ")";
+            document.documentElement.style.transformOrigin = "top left";
+        }
+        
+        const savedInverted = localStorage.getItem("invertedColors");
+        if (savedInverted === "true") {
+            document.documentElement.classList.add("inverted-colors");
+        }
+    }
+
+    function changeFontSize(scale) {
+        localStorage.setItem("fontSize", scale);
+        applySettings();
+    }
+    
+    function toggleInvertColors() {
+        const isInverted = document.documentElement.classList.toggle("inverted-colors");
+        localStorage.setItem("invertedColors", isInverted);
+    }
+    
+    document.addEventListener("DOMContentLoaded", applySettings);
+</script>
+
+<style>
+    .inverted-colors {
+        filter: invert(1) hue-rotate(180deg);
+        background-color: black;
+    }
+    .inverted-colors img {
+        filter: invert(1) hue-rotate(180deg);
+    }
+</style><span class="textstyle3"><br/>Bitte verwenden Sie zur Anpassung der Schriftgr&#246;&#223;e idealerweise die Zoom-Funktion des Browsers, damit sich die Seite automatisch anpasst. </span></div>
+<div style="clear:both"></div></div></div><div id="container_1f0f9a1a"role="banner" aria-label="Seitentitel"><div id="container_1f0f9a1a_padding" ><div class="textstyle1"><span class="textstyle4">InkluLurch</span><span class="textstyle4"><br/></span><span class="textstyle5">Inklusive digitale Bestimmungshilfe f&#252;r Amphibien in Baden-W&#252;rttemberg</span></div>
+</div></div><nav id="elem_27fb936f"  style="vertical-align: top; position:relative; display: inline-block; width:100%; height:37px; min-width:350px; background:none; " >  <div id="text_60f75242">
+    <div class="textstyle1">
+<div id="menu" role="menu"><div  class="menuholder1"><a href="javascript:void(0);" tabindex="-1">
+	<div id="menuentry_5bd6a16c"  class="menustyle1 menu_mainMenuEntry mobileEntry">
+		<div class="menuentry_text1">
+      <span class="textstyle6">&#8801;</span>
+		</div>
+	</div>
+</a>
+<a href="../index.html" style="text-decoration:none" tabindex="-1">
+	<div id="menuentry_3d605f38"  class="menustyle2 menu_mainMenuEntry normalEntry">
+		<div class="menuentry_text2">
+      <span class="textstyle7">Startseite</span>
+		</div>
+	</div>
+</a>
+<a href="../bestimmungshilfen.html" style="text-decoration:none" tabindex="-1">
+	<div id="menuentry_7a4c4888"  class="menustyle3 menu_mainMenuEntry normalEntry">
+		<div class="menuentry_text2">
+      <span class="textstyle7">Bestimmungshilfen</span>
+		</div>
+	</div>
+</a>
+<a href="../amphibienrufe.html" style="text-decoration:none" tabindex="-1">
+	<div id="menuentry_71507bc1"  class="menustyle4 menu_mainMenuEntry normalEntry">
+		<div class="menuentry_text2">
+      <span class="textstyle7">Amphibienrufe</span>
+		</div>
+	</div>
+</a>
+<a href="../amphibienportraets.html" style="text-decoration:none" tabindex="-1">
+	<div id="menuentry_2ca33937"  class="menustyle5 menu_mainMenuEntry normalEntry">
+		<div class="menuentry_text2">
+      <span class="textstyle7">Amphibienportr&#228;ts</span>
+		</div>
+	</div>
+</a>
+<a href="../downloads.html" style="text-decoration:none" tabindex="-1">
+	<div id="menuentry_1f6410d5"  class="menustyle6 menu_mainMenuEntry normalEntry">
+		<div class="menuentry_text2">
+      <span class="textstyle7">Downloads</span>
+		</div>
+	</div>
+</a>
+<a href="../ueber.html" style="text-decoration:none" tabindex="-1">
+	<div id="menuentry_77b4141d"  class="menustyle7 menu_mainMenuEntry normalEntry">
+		<div class="menuentry_text2">
+      <span class="textstyle7">&#220;ber das Projekt</span>
+		</div>
+	</div>
+</a>
+<a href="../impressum.html" style="text-decoration:none" tabindex="-1">
+	<div id="menuentry_8f3bd7b"  class="menustyle8 menu_mainMenuEntry normalEntry">
+		<div class="menuentry_text2">
+      <span class="textstyle7">Impressum</span>
+		</div>
+	</div>
+</a>
+<a href="../sitemap.html" style="text-decoration:none" tabindex="-1">
+	<div id="menuentry_5bdb9219"  class="menustyle9 menu_mainMenuEntry normalEntry">
+		<div class="menuentry_text2">
+      <span class="textstyle7">Sitemap</span>
+		</div>
+	</div>
+</a>
+
+	<script type="text/javascript" src="../rc_images/wsp_menu.js"></script>
+	<script type="text/javascript">
+		var js_menu= new wsp_menu('menu', 'menu', 10, null, true, {generateAriaLabels: false, setUsefulTabIndices: false, closeWhenMouseOut: false} );
+
+		js_menu.createMenuForItem('menuentry_5bd6a16c', ["      <span class=\"textstyle7\">Startseite</span> ", '../index.html', '',
+		                                   "      <span class=\"textstyle7\">Bestimmungshilfen</span> ", '../bestimmungshilfen.html', '',
+		                                   "      <span class=\"textstyle7\">Amphibienrufe</span> ", '../amphibienrufe.html', '',
+		                                   "      <span class=\"textstyle7\">Amphibienportr&#228;ts</span> ", '../amphibienportraets.html', '',
+		                                   "      <span class=\"textstyle7\">Downloads</span> ", '../downloads.html', '',
+		                                   "      <span class=\"textstyle7\">&#220;ber das Projekt</span> ", '../ueber.html', '',
+		                                   "      <span class=\"textstyle7\">Impressum</span> ", '../impressum.html', '',
+		                                   "      <span class=\"textstyle7\">Sitemap</span> ", '../sitemap.html', '']
+		                                   , true);
+		js_menu.createMenuForItem('menuentry_3d605f38', []);
+		js_menu.createMenuForItem('menuentry_7a4c4888', []);
+		js_menu.createMenuForItem('menuentry_71507bc1', []);
+		js_menu.createMenuForItem('menuentry_2ca33937', []);
+		js_menu.createMenuForItem('menuentry_1f6410d5', []);
+		js_menu.createMenuForItem('menuentry_77b4141d', []);
+		js_menu.createMenuForItem('menuentry_8f3bd7b', []);
+		js_menu.createMenuForItem('menuentry_5bdb9219', []);
+
+	</script>
+</div></div>      </div>
+    </div>
+</nav><div id="Hauptinhalt" role="region" aria-label="Seiteninhalt"
+><div id="Hauptinhalt_padding" ><div class="textstyle1"><div  id="placeh_17435cc4" >
+  <div class="textstyle1">
+<div id="container_75dd1732"><div id="container_75dd1732_padding" ><div class="textstyle1">    <span class="textstyle2">Hat das Tier ...</span>
+</div>
+</div></div><div id="container_3069617d"><div id="container_3069617d_padding" ><div class="textstyle1"><div id="container_2ed68a52"><div id="container_2ed68a52_padding" ><div class="textstyle1"><div id="container_e130502"><div id="container_e130502_padding" ><div class="textstyle1"><span class="textstyle8">... senkrechte Pupillen?<br/>... einen ausgepr&#228;gten schaufelf&#246;rmigen Fersenh&#246;cker am Hinterfu&#223;?<br/></span><span class="textstyle2"><br/></span><a href="../artenportraets_f/knoblauchkroete_f.html" style="text-decoration:none"><div id="button_7c8d9c3c" role="button" aria-label="Zum Artportr&#228;t der Knoblauchkr&#246;te gehen"><div class="vcenterstyle1"><div class="vcenterstyle2"><div class="textstyle1"></div>
+<div class="textstyle9">    <span class="textstyle2">Knoblauchkr&#246;te</span>
+</div>
+</div></div></div></a><span class="textstyle2"><br/><br/></span><img src="../rc_images/pupille_senkrecht.png" width="515" height="346" id="img_55dd37a6" alt="Hier ist vereinfacht ein Auge mit einer senkrechten schlitzf&#246;rmigen Pupille dargestellt." title="" /><img src="../rc_images/grabschaufel.png" width="649" height="663" id="img_72b8e8fb" alt="Hier ist vereinfacht der Fu&#223; eines Froschlurchs von unten dargestellt. Der Fu&#223; hat f&#252;nf schlanke Zehen, der zweite von rechts ist der l&#228;ngste. Zwischen den Zehen sind Schwimmh&#228;ute eingezeichnet. An der linken Seite des Fu&#223;ballens ist ein dunkelgraues, gr&#246;&#223;eres Oval eingezeichnet, auf das ein Pfeil zeigt." title="" /><span class="textstyle2"><br/></span></div>
+<div style="clear:both"></div></div></div><div id="container_5c366bf8"><div id="container_5c366bf8_padding" ><div class="textstyle1"><span class="textstyle8">... runde oder waagerechte Pupillen?<br/>... nur einen schwach ausgepr&#228;gten Fersenh&#246;cker am Hinterfu&#223;?<br/></span><span class="textstyle2"><br/></span><a href="f41.html" style="text-decoration:none"><div id="button_2b4e4854" role="button" aria-label="Bei Fr&#246;schen weitermachen"><div class="vcenterstyle1"><div class="vcenterstyle2"><div class="textstyle1"></div>
+<div class="textstyle9">    <span class="textstyle2">Fr&#246;sche</span>
+</div>
+</div></div></div></a><span class="textstyle2"><br/><br/></span><img src="../rc_images/pupille_waagerecht.png" width="515" height="346" id="img_1ba4e6e6" alt="Hier ist vereinfacht ein Auge mit einer waagerechten Pupille dargestellt." title="" /><img src="../rc_images/fersenh_cker_schwach.png" width="649" height="663" id="img_67d4ddbe" alt="Hier ist vereinfacht der Fu&#223; eines Froschlurchs von unten dargestellt. Der Fu&#223; hat f&#252;nf schlanke Zehen, der zweite von rechts ist der l&#228;ngste. Zwischen den Zehen sind Schwimmh&#228;ute eingezeichnet. An der linken Seite des Fu&#223;ballens ist ein dunkelgraues, sehr kleines Oval eingezeichnet, auf das ein Pfeil zeigt." title="" /><img src="../rc_images/pupille_rund.png" width="515" height="346" id="img_785f7184" alt="Hier ist vereinfacht ein Auge mit einer runden Pupille dargestellt." title="" /></div>
+<div style="clear:both"></div></div></div></div>
+<div style="clear:both"></div></div></div><a href="f21.html" title="zur&#252;ck zur letzten Seite" arial-label="zur&#252;ck zur letzten Seite" style="text-decoration:none"><div id="button_597a9d8c" role="button"><div class="vcenterstyle1"><div class="vcenterstyle2"><div class="textstyle9">    <span class="textstyle2">zur&#252;ck</span>
+</div>
+<div class="textstyle1"></div>
+</div></div></div></a></div>
+<div style="clear:both"></div></div></div>    </div>
+</div>
+</div>
+<div style="clear:both"></div></div></div><div id="container_b131709"role="contentinfo" aria-label="Copyright Information"><div id="container_b131709_padding" ><div class="textstyle1">  <span class="textstyle10">Copyright (c) by Josephine R&#246;hner</span>
+</div>
+</div></div>  </div>
+</body>
+</html>
